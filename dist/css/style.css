@@ -1075,6 +1075,7 @@ h6 {
 }
 
 .share-moment__image-ibg {
+  pointer-events: none;
   height: 539px;
 }
 
