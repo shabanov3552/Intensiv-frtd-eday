@@ -179,33 +179,6 @@ h6 {
      object-fit: contain;
 }
 
-.btn-grey {
-  padding: 0 1.5625rem;
-  height: 39px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  white-space: nowrap;
-  border-radius: 6px;
-  background: #455A64;
-  color: #F3FCFF;
-  font-size: 14.129px;
-  font-weight: 700;
-  line-height: 146.687%;
-  -webkit-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
-}
-
-.btn-grey:hover {
-  background: #607f8d;
-}
-
 .btn-more {
   color: #455A64;
   font-size: 14.129px;
@@ -238,9 +211,9 @@ h6 {
   transition: fill 0.3s ease 0s;
 }
 
-.btn-orange {
-  padding: 0 1.5625rem;
+.btn {
   height: 39px;
+  padding: 0 1.5625rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -251,8 +224,6 @@ h6 {
       -ms-flex-align: center;
           align-items: center;
   white-space: nowrap;
-  border-radius: 8px;
-  background: #FE9868;
   color: #F3FCFF;
   font-size: 14.129px;
   font-weight: 700;
@@ -261,34 +232,31 @@ h6 {
   transition: all 0.3s ease 0s;
 }
 
-.btn-orange:hover {
+.btn_grey {
+  border-radius: 6px;
+  background: #455A64;
+}
+
+.btn_grey:hover {
+  background: #607f8d;
+}
+
+.btn_orange {
+  border-radius: 8px;
+  background: #FE9868;
+}
+
+.btn_orange:hover {
   background: #aa6545;
 }
 
-.btn-orange_trnst {
-  padding: 0 1.5625rem;
-  height: 39px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  white-space: nowrap;
+.btn_orange-bd {
   border-radius: 8px;
   border: 2px solid #FE9868;
   color: #000;
-  font-size: 14.129px;
-  font-weight: 700;
-  line-height: 146.687%;
-  -webkit-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
 }
 
-.btn-orange_trnst:hover {
+.btn_orange-bd:hover {
   background: #FE9868;
   color: #fff;
 }
@@ -855,9 +823,6 @@ h6 {
   font-weight: 700;
   line-height: 146.687%;
   margin-bottom: 0.625rem;
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 auto;
-          flex: 1 1 auto;
 }
 
 .actions-descr__container {
@@ -1570,6 +1535,11 @@ h6 {
         -ms-flex-align: stretch;
             align-items: stretch;
     gap: 15px;
+  }
+
+  .first-block__map-ibg {
+    height: 100%;
+    top: 0;
   }
 
   .advantages__row {
